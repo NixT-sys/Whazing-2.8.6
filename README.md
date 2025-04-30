@@ -80,6 +80,17 @@ sudo chmod +x ./whazinginstalador/whazing
 ```bash
 cd ./whazinginstalador
 ```
+
+Criar o usário deploy
+
+```bash
+adduser deploy
+```
+Permisão sudo deploy
+```bash
+usermod -aG sudo deploy
+```
+
 ```bash
 sudo ./whazing
 ```
